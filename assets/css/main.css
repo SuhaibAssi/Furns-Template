@@ -1,0 +1,132 @@
+:root{
+    --secondary-font: "Open Sans", sans-serif;
+    --heading-font: "Raleway", sans-serif;
+    --main-background-color: #2f333a;
+    --main-text-color: #ff7004;
+}
+
+p{
+    font-family: var(--heading-font);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*start welcome-section*/
+.welcome-message{
+    background-color: var(--main-background-color);
+    padding: 10px 0px;
+}
+.welcome-message .message p{
+    color: var(--main-text-color);
+}
+.welcome-message .dropdown-lists select{   
+ /* width: 260px; */
+  /* padding: 12px 40px 12px 12px; */
+  font-size: 16px;
+background-color: var(--main-background-color);
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--heading-font);
+}
+.welcome-message .dropdown-lists select:hover{
+    color: var(--main-text-color);
+}
+.welcome-message .dropdown-lists select option{
+   font-size: 13px;
+   padding: 10px !important;
+}
+/*end welcome-section*/
+/*start logo-heading-section*/
+.logo-heading-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo-heading-section .icon-item button{
+    background-color: #fff;
+    border: 0px;
+    padding: 0px;
+}
+.logo-heading-section .icon-item .bag-icon::after{
+    content: "0";
+    position: absolute;
+    line-height: 17px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 10px;
+    background-color: var(--main-text-color);
+    right: -8px;
+}
+.view-cart{
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+}
+.canvas-link{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--main-text-color);
+    padding: 15px 36px 15px 10px;
+    border-radius: 3px;
+    transition: all ease .5s;
+}
+.canvas-link:hover{
+    background-color: #2f333a;
+}
+.canvas-span{
+    position: absolute;
+    right: 10px;
+    padding: 10px;
+    background-color: #fff;
+    color: var(--main-text-color);
+    top: 50%;
+    height: 37px;
+    transform: translateY(-50%);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.canvas-form{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: -12px;
+}
+.search-input{
+    display: block;
+    width: 100%;
+    padding: 12px 12px;
+    font-size: 1rem;
+    background-image: none;
+    line-height: 1.25;
+    color: #464a4c;
+    border: 1px solid #00000026;
+    outline: 0;
+}
+.search-input:focus{
+    border-color: var(--main-text-color);
+}
+.search-button{
+    width: 60px;
+    color: #fff;
+    background-color: var(--main-text-color);
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 5px 5px 0px;
+}
+/*end logo-heading-section*/
