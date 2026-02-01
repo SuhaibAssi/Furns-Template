@@ -170,3 +170,26 @@ background-color: var(--main-background-color);
     top: 0px;
 }
 /*end sticky-nav-section*/
+.aside-button{
+    color: #fff;
+    font-weight: 600;
+    background-color: var(--main-background-color);
+    border: 0px;
+    font-family: var(--secondary-font);
+    padding: 15px;
+    border-radius: 3px 0px 0px 3px;
+    top: calc(30% + 110px);
+}
+.aside-span1{
+    font-size: 14px;
+}
+.aside-span2{
+    width: 65px;
+    height: 25px;
+    color: var(--main-text-color);
+    font-weight:700;
+    background-color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
