@@ -130,3 +130,43 @@ background-color: var(--main-background-color);
     border-radius: 0px 5px 5px 0px;
 }
 /*end logo-heading-section*/
+
+/*start nav-section*/
+.navbar{
+    /* background-color: var(--main-background-color); */
+    font-family: var(--secondary-font);
+}
+.nav-link{
+    color: #2f333a;
+    font-size: 15px;
+}
+/*start nav-section*/
+
+/*start sticky-nav-section*/
+.sticky-nav{
+    background-color: var(--main-background-color);
+}
+.sticky-nav .sticky-items button{
+    color: #fff;
+    border: 0px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+.sticky-nav .sticky-items .cart-button::after{
+    content: "0";
+    position: absolute;
+    line-height: 17px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 10px;
+    background-color: var(--main-text-color);
+    right: -4px;
+    top: 0px;
+}
+/*end sticky-nav-section*/
