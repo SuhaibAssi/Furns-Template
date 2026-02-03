@@ -140,12 +140,16 @@ background-color: var(--main-background-color);
     color: #2f333a;
     font-size: 15px;
 }
+.nav-link:hover{
+    color: var(--main-text-color);
+}
 .dropdown-item{
     font-family: var(--secondary-font);
     font-size: 14px;
     border-top: 1px solid rgb(233, 230, 230);
     padding-top: 8px;
     padding-bottom: 8px;
+    font-weight: 500;
 }
 .dropdown-item:hover{
     color: var(--main-text-color);
@@ -206,3 +210,112 @@ background-color: var(--main-background-color);
     margin-top: 5px;
     line-height: 1.7;
 }
+
+/*start footer-section*/
+.footer{
+    background-color: var(--main-background-color);
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+.footer .footer-item h4{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    letter-spacing: 1.2px;
+    font-family: var(--heading-font);
+}
+.footer .footer-item .text-content p{
+    font-size: 14px;
+    max-width: 290px;
+    line-height: 24px;
+}
+.footer .footer-item .text-content .footer-icons{
+    margin-top: 15px;
+}
+.footer .footer-item ul li{
+    margin-bottom: 8px;
+    transition: 0.4s;
+}
+.footer .footer-item ul li:hover{
+    transform: translateX(8px);
+}
+.footer .footer-item ul li a{
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0px;
+    color: #fff;
+    transition: 0.4s;
+}
+.footer .footer-item ul li a:hover{
+    color: var(--main-text-color);
+}
+.footer .footer-item .footer-form{
+    margin-top: 20px;
+}
+.footer .footer-item .footer-form input{
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+    background: transparent;
+    border-radius: 0px;
+    text-transform: capitalize;
+    text-align: left;
+    height: 50px;
+    border: 1px solid #43474e;
+    padding-left: 20px;
+    padding-right: 10px;
+    box-shadow: none;
+    transition: 0.4s;
+    color: #fff;
+    outline: none;
+    vertical-align: top;
+    line-height: 50px;
+    font-weight: 600;
+}
+.footer .footer-item .footer-form input:focus{
+    border-color: var(--main-text-color);
+}
+.footer .footer-item .footer-form button{
+    font-size: 13px;
+    font-weight: 600;
+    border: 0px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 17px 36px;
+    transition: 0.4s;
+    font-family: var(--heading-font);
+    background-color: var(--main-text-color);
+    color: #fff;
+    line-height: 1;
+    outline: 0;
+    border-radius: 0px;
+    text-align: center;
+}
+.footer .footer-item .footer-form button:hover{
+    background-color: #212121;
+}
+/*end footer-section*/
+
+/*start sub-footer-section*/
+.subfooter{
+    background-color: #212121;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.sub-footer-para{
+    color: #fff;
+    font-size: 13px;
+    font-family: var(--heading-font);
+    line-height: 26px;
+}
+.sub-footer-para svg{
+    margin: 0px 1px;
+    font-size: 14px;
+}
+.sub-footer-para a{
+    color: #fff;
+    font-weight: 700;
+}
+/*end sub-footer-section*/
