@@ -3,6 +3,7 @@
     --heading-font: "Raleway", sans-serif;
     --main-background-color: #2f333a;
     --main-text-color: #ff7004;
+    --hover-color:#212121;
 }
 
 p{
@@ -14,6 +15,26 @@ a{
 ul{
     list-style: none;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+.mybtn{
+    font-size: 13px;
+    font-weight: 600;
+    border: 0px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 17px 36px;
+    transition: 0.4s;
+    font-family: var(--heading-font);
+    background-color: var(--main-text-color);
+    color: #fff;
+    line-height: 1;
+    outline: 0;
+    border-radius: 0px;
+    text-align: center;
+}
+
 /*start welcome-section*/
 .welcome-message{
     background-color: var(--main-background-color);
@@ -294,7 +315,7 @@ background-color: var(--main-background-color);
     text-align: center;
 }
 .footer .footer-item .footer-form button:hover{
-    background-color: #212121;
+    background-color: var(--hover-color);
 }
 /*end footer-section*/
 
@@ -319,3 +340,67 @@ background-color: var(--main-background-color);
     font-weight: 700;
 }
 /*end sub-footer-section*/
+/*start landing-section*/
+.landing{
+}
+.landing .carousel-inner .carousel-item img{
+    object-fit: cover;
+    object-position: center center;
+}
+.landing .carousel-inner .carousel-item .carousel-caption{
+
+}
+.landing .carousel-inner .carousel-item h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.landing .carousel-inner .carousel-item h2{
+    font-size: 72px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.landing .carousel-inner .carousel-item p{
+    max-width: 470px;
+    margin: auto;
+    font-family: var(--secondary-font);
+}
+.landing .carousel-inner .carousel-item a{
+    font-size: 16px;
+    margin-top: 48px;
+}
+.landing .carousel-inner .carousel-item a:hover{
+    background-color: var(--hover-color);
+}
+.landing .carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--main-text-color);
+    border: 1px solid #000;
+}
+.landing .carousel-indicators button:hover{
+    background-color: var(--main-text-color);
+}
+.icone-style{
+    font-size: 25px;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icone-style:hover{
+    color: #fff;
+    background-color: var(--main-text-color);
+}
+/* @media(max-width: 871px){
+    .landing .carousel-inner .carousel-item h4{
+        font-size: 18px;
+    }
+    .landing .carousel-inner .carousel-item h2{
+        font-size: 40px;
+    }
+} */
+/*end landing-section*/
