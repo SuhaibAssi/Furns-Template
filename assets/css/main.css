@@ -605,14 +605,32 @@ background-color: var(--main-background-color);
 .categories:active .categories-slider,
 .categories:focus-within .categories-slider,
 .categories:hover .categories-slider {
-  pointer-events: auto;         /* يشتغل عند الضغط/الفوكس/الهوفر */
+  pointer-events: auto;      
 }
 .categories-slider:focus{
     outline: none;
 }
-/* .categories-slider:focus-visible{
-    outline: none;
-     border-radius: 12px;
-     animation: focusPulse 1.2s ease-in-out infinite;
-} */
+@media screen and (max-width: 768px) {
+    .category a{
+        width: 150px;
+        height: 150px;
+        
+    }
+    .category a img{
+        margin-top: 19px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .category a{
+        width: 140px;
+        height: 140px;
+        
+    }
+    .category a img{
+        margin-top: 24px;
+    }
+    .category a p{
+        font-size: 12px;
+    }
+}
 /*end categories-section*/
