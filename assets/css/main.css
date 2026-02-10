@@ -587,6 +587,7 @@ background-color: var(--main-background-color);
     gap: 20px;
     border: 2px solid #43474e;
     border-radius: 50%;
+    position: relative;
 }
 .category a img{
     width: 65px;
@@ -597,9 +598,35 @@ background-color: var(--main-background-color);
     transition: 0.4s;
     color: #474747;
 }
-/* ✅ “إيقاف” التمرير بالماوس افتراضيًا ثم تشغيله عند التفعيل */
+.category a::before{
+  content: "";
+  position: absolute;
+  inset: -1.5px;             /* توسيع خفيف لتجنب تداخل البعدين */
+  border-radius: 50%;
+  border: 3px dashed var(--main-text-color);
+  /* box-sizing: border-box; */
+  pointer-events: none;
+  opacity: 0;
+  transform: rotate(0deg);
+  transition: opacity .2s ease, filter .2s ease;
+}
+.category a:hover{
+    border-color: transparent;
+}
+.category a:hover::before{
+    opacity: 1;
+  animation: spin 1.2s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .category a:hover::before {
+    animation: none;
+  }
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
 .categories-slider {
-  pointer-events: none;         /* يمنع التفاعل افتراضيًا */
+  pointer-events: none;         
 }
 
 .categories:active .categories-slider,
