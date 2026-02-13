@@ -744,3 +744,22 @@ background-color: var(--main-background-color);
     left: 40px;
 }
 /*end offers-section*/
+
+/*start leatest-news-section*/
+.leatest-news .title-text h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.leatest-news .title-text p{
+    max-width: 465px;
+    color: #474747;
+    font-family: var(--secondary-font);
+    margin: auto;
+}
+.leatest-news .title-text h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+/*end leatest-news-section*/
