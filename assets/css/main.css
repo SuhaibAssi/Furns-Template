@@ -718,3 +718,29 @@ background-color: var(--main-background-color);
     }
 }
 /*end categories-section*/
+
+/*start offers-section*/
+.offers{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.offers a .offer-desc{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+}
+.offers a .offer-desc h3{
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: #212121;
+    font-weight: 600;
+}
+.offers a .offer-desc p{
+    margin-bottom: 0;
+    color: #474747;
+    font-family: var(--secondary-font);
+}
+.offers a .left{
+    left: 40px;
+}
+/*end offers-section*/
