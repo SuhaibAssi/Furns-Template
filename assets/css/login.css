@@ -1,0 +1,104 @@
+:root{
+    --secondary-font: "Open Sans", sans-serif;
+    --heading-font: "Raleway", sans-serif;
+    --third-font: "Montserrat", sans-serif;
+    --main-background-color: #2f333a;
+    --main-text-color: #ff7004;
+    --hover-color:#212121;
+}
+.page-title{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f4f5f8;
+    margin-bottom: 100px;
+}
+.page-title h2{
+    margin: 0;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #212121;
+}
+.page-title ul{
+    margin-top: 10px;
+    transform: translateX(-1%);
+}
+.page-title ul li{
+    letter-spacing: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+}
+.page-title ul li a{
+    color: #474747;
+    font-weight: 500;
+}
+.page-title ul .slash::before{
+    content: "/";
+    position: absolute;
+    color: #474747;
+    left: -13px;
+}
+
+/*start form section*/
+.form-container{
+    padding: 50px 30px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 12px 3px;
+}
+.label-style{
+    display: block;
+    margin-bottom: 10px;
+    color: #212121;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+}
+.input-style{
+    width: 100%;
+    display: block;
+    line-height: 1;
+    padding: 12px 15px;
+    transition: 0.4s;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    border: 1px solid #ebebeb;
+}
+.signin-style{
+    display: inline-block;
+    text-align: center;
+    padding: 17px 36px;
+    border: 0px;
+    line-height: 1;
+    transition: 0.4s;
+    font-family: var(--heading-font);
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: var(--main-text-color);
+    color: #fff;
+    font-weight: 600;
+}
+.my-btn{
+    padding: 0px 15px;
+    position: relative;
+}
+.my-anckor{
+    display: inline-block;
+    text-align: center;
+    padding: 17px 36px;
+    border: 0px;
+    transition: 0.4s;
+    font-family: var(--heading-font);
+    font-weight: 600;
+    color: #3b4863;
+    background-color: #ebebeb;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.account-style{
+    background-color: #2f333a;
+    color: #fff;
+}
+/*end form section*/
