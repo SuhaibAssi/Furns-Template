@@ -747,7 +747,7 @@ footer .footer-item .text-content .footer-icons a:hover{
 .offers a .offer-desc h3{
     font-size: 30px;
     margin-bottom: 16px;
-    color: #212121;
+    color: red;
     font-weight: 600;
 }
 .offers a .offer-desc p{
