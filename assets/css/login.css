@@ -101,4 +101,18 @@
     background-color: #2f333a;
     color: #fff;
 }
+@media (max-width: 557px) {
+    .page-form .my-container{
+        width: 100%;
+        padding-right: 25px;
+        padding-left: 25px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+@media (max-width: 575px) {
+    .page-form .form-container{
+        padding: 30px 20px;
+    }
+}
 /*end form section*/
