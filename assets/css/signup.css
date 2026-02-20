@@ -1,0 +1,45 @@
+:root{
+    --secondary-font: "Open Sans", sans-serif;
+    --heading-font: "Raleway", sans-serif;
+    --third-font: "Montserrat", sans-serif;
+    --main-background-color: #2f333a;
+    --main-text-color: #ff7004;
+    --hover-color:#212121;
+}
+
+/*start page-title section*/
+.page-title{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f4f5f8;
+    margin-bottom: 100px;
+}
+.page-title h2{
+    margin: 0;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #212121;
+}
+.page-title ul{
+    margin-top: 10px;
+    transform: translateX(-1%);
+}
+.page-title ul li{
+    letter-spacing: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+}
+.page-title ul li a{
+    color: #474747;
+    font-weight: 500;
+}
+.page-title ul .slash::before{
+    content: "/";
+    position: absolute;
+    color: #474747;
+    left: -13px;
+}
+/*end page-title section*/
