@@ -64,3 +64,28 @@
     }
 }
 /*end page-title section*/
+
+/*start about content*/
+.about-content-wrapper h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #212121;
+    font-family: var(--heading-font);
+}
+.about-store{
+    font-size: 14px;
+    line-height: 2;
+}
+.about-store h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #212121;
+    font-family: var(--heading-font);
+}
+.about-store p{
+    margin-bottom: 0px;
+    color: #474747;
+    font-family: var(--secondary-font);
+}
+/*end about content*/
