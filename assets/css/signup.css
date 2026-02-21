@@ -23,7 +23,15 @@
 }
 .page-title ul{
     margin-top: 10px;
-    transform: translateX(-1%);
+    /* transform: translateX(-1%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-left: 0px;
 }
 .page-title ul li{
     letter-spacing: 2px;
@@ -42,4 +50,115 @@
     color: #474747;
     left: -13px;
 }
+@media screen and (max-width: 767px) {
+    .page-title h2{
+        font-size: 20px;
+    }
+    .page-title ul{
+        /* transform: translateX(-7%); */
+            display: flex;
+    justify-content: ;
+    align-items: center;
+    }
+    .page-title ul li{
+        font-size: 12px;
+    }
+}
 /*end page-title section*/
+
+/*start page-form section*/
+.form-content{
+    padding: 50px 30px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 12px 3px;
+}
+.label-style{
+    display: block;
+    margin-bottom: 10px;
+    line-height: 1;
+    color: #212121;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 600;
+}
+.input-style{
+    width: 100%;
+    display: block;
+    line-height: 1;
+    padding: 12px 15px;
+    border: 3px;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    border: 1px solid #ebebeb;
+}
+.checkbox-style{
+    margin: 0px;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+    border: 1px solid var(--main-text-color);
+    background-color: #fff;
+    border-radius: 3px;
+    transition: 0.4s;
+    appearance: none;
+    position: relative;
+}
+
+.checkbox-style:checked {
+  background-color: var(--main-text-color);
+  border-color: var(--main-text-color);
+  color: #fff;
+}
+
+.checkbox-style:checked::after {
+  content: "✔";
+  /* content: url('<svg width="64px" height="64px" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect width="48" height="48" fill="white" fill-opacity="0.01"></rect> <path fill-rule="evenodd" clip-rule="evenodd" d="M4 24L9 19L19 29L39 9L44 14L19 39L4 24Z" fill="#2F88FF" stroke="#000000" stroke-width="0.00048000000000000007" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>'); */
+  color: white;
+  font-size: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.policy-label{
+    cursor: pointer;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    display: block;
+    line-height: 1;
+    color: #212121;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 600;
+}
+.accept p{
+    font-size: 13px;
+    color: #474747;
+    font-family: var(--secondary-font);
+}
+.accept p a{
+    color: #474747;
+    font-weight: 600;
+}
+.login-link, 
+.signup-button{
+    display: inline-block;
+    text-align: center;
+    padding: 17px 36px;
+    border-radius: 0px;
+    line-height: 1;
+    border: 0px;
+    transition: 0.4s;
+    font-family: var(--heading-font);
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.signup-button{
+    background-color: var(--main-text-color);
+}
+.login-link{
+    background-color: #3b4863;
+}
+/*end page-form section*/
