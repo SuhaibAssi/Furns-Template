@@ -21,7 +21,15 @@
 }
 .page-title ul{
     margin-top: 10px;
-    transform: translateX(-1%);
+    /* transform: translateX(-1%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-left: 0px;
 }
 .page-title ul li{
     letter-spacing: 2px;
@@ -29,10 +37,15 @@
     text-transform: uppercase;
     font-family: var(--secondary-font);
     font-size: 14px;
+    transition: 0.4s;
 }
 .page-title ul li a{
     color: #474747;
     font-weight: 500;
+    transition: 0.4s;
+}
+.page-title ul li .home-link:hover{
+    color: var(--main-text-color);
 }
 .page-title ul .slash::before{
     content: "/";
@@ -40,7 +53,15 @@
     color: #474747;
     left: -13px;
 }
+@media screen and (max-width: 767px) {
+    .page-title h2{
+        font-size: 20px;
+    }
 
+    .page-title ul li{
+        font-size: 12px;
+    }
+}
 /*start form section*/
 .form-container{
     padding: 50px 30px;
