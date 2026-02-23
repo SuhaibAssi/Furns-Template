@@ -64,3 +64,25 @@
     }
 }
 /*end page-title section*/
+/*start page-content*/
+.page-content .sort-content{
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    background-color: #ebebeb;
+    align-items: center;
+}
+.page-content p{
+    color: #474747;
+    font-family: var(--secondary-font);
+}
+.page-content .sort-content label{
+    font-weight: 600;
+}
+.page-content .sort-content .btn{
+    background-color: #fff;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+/*end page-content*/
