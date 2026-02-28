@@ -184,6 +184,7 @@ background-color: var(--main-background-color);
 /*start sticky-nav-section*/
 .sticky-nav{
     background-color: var(--main-background-color);
+    z-index: 100;
 }
 .sticky-nav .sticky-items button{
     color: #fff;
@@ -219,6 +220,7 @@ background-color: var(--main-background-color);
     border-radius: 3px 0px 0px 3px;
     top: calc(30% + 110px);
     box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 16px -1px;
+    z-index: 200;
 }
 .aside-span1{
     font-size: 14px;

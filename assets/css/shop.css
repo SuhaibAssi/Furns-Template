@@ -213,4 +213,28 @@
     transform: translateY(0px);
     opacity: 1;
 }
+.discount-div{
+    position: absolute;
+    z-index: 8;
+    top: 18px;
+    left: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.discount-div .discount-span{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--secondary-font);
+    line-height: 1;
+    display: block;
+    padding: 5px 7px;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+    border-radius: 3px;
+    color: white;
+    background-color: #dc3545;
+}
 /*end page-content*/
