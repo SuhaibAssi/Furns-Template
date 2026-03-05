@@ -346,3 +346,108 @@
     background-color: #dc3545;
 }
 /*start related-product section*/
+/*start review-product section*/
+.product-review{
+    margin-top: 93px;
+}
+.product-review .nav-tabs{
+    border: none;
+}
+.product-review .tab-content{
+    border: 1px solid #ebebeb;
+}
+.nav-tabs .nav-link.active {
+    border-bottom: 2px solid var(--main-text-color);
+    color: #212121;
+}
+.product-review .tab-pane .rev-profile .review-img{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex: 0 0 120px;
+    margin: 0px 15px 0px 0px ;
+    align-items: center;
+    justify-content: center;
+    color: #474747;
+    border-radius: 50%;
+    border: 1px solid #ebebeb;
+}
+.product-review .tab-pane .rev-profile .review-content{
+    width: 100%;
+    line-height: 1;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.product-review .tab-pane .rev-profile .review-content .review-name{
+    margin-bottom: 7px;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+.product-review .tab-pane .rev-profile .review-content .rating{
+    margin-bottom: 5px;
+    /* color: var(--main-text-color); */
+}
+.product-review .tab-pane .rev-profile .review-content p{
+    color: #474747;
+    font-family: var(--secondary-font);
+}
+.message-label{
+    display: block;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #212121;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 600;
+}
+.message-area{
+    width: 100%;
+    display: block;
+    line-height: 1;
+    padding: 12px 15px;
+    transition: 0.4s;
+    border-radius: 3px;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    border: 1px solid #ebebeb;
+}
+.my-label{
+    display: block;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #212121;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 600;
+}
+.my-input{
+    width: 100%;
+    display: block;
+    line-height: 1;
+    padding: 12px 15px;
+    transition: 0.4s;
+    border-radius: 3px;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    border: 1px solid #ebebeb;
+}
+.s-btn{
+    display: inline-block;
+    text-align: center;
+    padding: 17px 36px;
+    line-height: 1;
+    border: 0px;
+    transition: 0.4s;
+    font-size: 16px;
+    font-family: var(--heading-font);
+    font-weight: 600;
+    background-color: var(--main-text-color);
+    color: #fff;
+    border-radius: 3px;
+}
+.descreption-div{
+    line-height: 1.7;
+    font-size: 15px;
+}
+/*start review-product section*/
