@@ -361,12 +361,13 @@ footer .footer-item .text-content .footer-icons a:hover{
 /*start landing-section*/
 .landing{
 }
-.landing .carousel-inner .carousel-item img{
-    object-fit: cover;
-    object-position: center center;
+.landing .carousel-inner .carousel-item{
+    position: relative;
 }
 .landing .carousel-inner .carousel-item .carousel-caption{
-
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
 }
 .landing .carousel-inner .carousel-item h4{
     font-size: 24px;
@@ -384,10 +385,13 @@ footer .footer-item .text-content .footer-icons a:hover{
 }
 .landing .carousel-inner .carousel-item a{
     font-size: 16px;
-    margin-top: 48px;
+    margin-top: 20px;
 }
 .landing .carousel-inner .carousel-item a:hover{
     background-color: var(--hover-color);
+}
+.landing .carousel-indicators{
+    margin-bottom: 10px;
 }
 .landing .carousel-indicators [data-bs-target]{
     width: 15px;
@@ -413,14 +417,81 @@ footer .footer-item .text-content .footer-icons a:hover{
     color: #fff;
     background-color: var(--main-text-color);
 }
-/* @media(max-width: 871px){
+@media(max-width: 800px){
     .landing .carousel-inner .carousel-item h4{
-        font-size: 18px;
+        font-size: 20px;
+    }
+    .landing .carousel-inner .carousel-item h2{
+        font-size: 50px;
+    }
+    .landing .carousel-inner .carousel-item p{
+        font-size: 14px;
+    }
+    .landing .carousel-inner .carousel-item a{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+}
+@media(max-width: 678px){
+    .landing .carousel-inner .carousel-item h4{
+        font-size: 17px;
+        margin-bottom: 2px;
     }
     .landing .carousel-inner .carousel-item h2{
         font-size: 40px;
+        margin-bottom: 0px;
     }
-} */
+    .landing .carousel-inner .carousel-item p{
+        font-size: 14px;
+    }
+    .landing .carousel-inner .carousel-item a{
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+
+}
+@media(max-width: 570px){
+    .landing .carousel-inner .carousel-item h4{
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+    .landing .carousel-inner .carousel-item h2{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .landing .carousel-inner .carousel-item p{
+        font-size: 12px;
+    }
+    .landing .carousel-inner .carousel-item a{
+        margin-top: 0px;
+        margin-bottom: -10px;
+        font-size: 10px;
+    }
+    .landing .carousel-indicators{
+      margin-bottom: 1px;
+} 
+}
+@media(max-width: 470px){
+    .landing .carousel-inner .carousel-item h4{
+        visibility: hidden;
+    }
+    .landing .carousel-inner .carousel-item h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .landing .carousel-inner .carousel-item p{
+        display: none;
+    }
+    .landing .carousel-inner .carousel-item a{
+        margin-top: 2px;
+        margin-bottom: -10px;
+        font-size: 12px;
+    }
+            .landing .carousel-indicators{
+      display: none;
+} 
+}
 /*end landing-section*/
 
 /*start products-section*/
